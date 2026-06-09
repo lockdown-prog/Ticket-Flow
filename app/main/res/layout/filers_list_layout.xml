@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@drawable/filers_layout_background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Office Hardware Supply Matrix"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="6dp"
+        android:padding="1dp"
+        android:text="Filer: "
+        android:textColor="@color/light_white"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/filerTitle"
+        android:padding="1dp"
+        android:text="Sarah Jenkins"
+        android:textColor="@color/light_white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valueTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/filerName"
+        android:padding="1dp"
+        android:paddingStart="20dp"
+        android:text="Value: "
+        android:textColor="@color/light_white"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valuePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/valueTitle"
+        android:padding="1dp"
+        android:text="100.00"
+        android:textColor="@color/light_white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_below="@+id/subject"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/valuePrice"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="0dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="0dp"
+        android:text="UNSETTLED"
+        android:textColor="@color/unsettled"
+        android:textStyle="bold"
+        app:backgroundTint="@color/unsettled_background" />
+
+</RelativeLayout>
