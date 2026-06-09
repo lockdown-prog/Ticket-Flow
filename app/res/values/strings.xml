@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ticket Flow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_ticket">Create Ticket</string>
+    <string name="subtitle">Log a new payable entry into your ledger system</string>
+    <string name="filer_name">Filer Name</string>
+    <string name="subject_purpose">Subject / Purpose</string>
+    <string name="payment">Amount Payable ($)</string>
+    <string name="file_button">File Entry</string>
+    <string name="search_tickets">Search</string>
+    <string name="cloud_backup">Cloud Backup</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="search_directory">Search Directory</string>
+    <string name="audit_records">Audit records or click any row component card to manage parameters.</string>
+    <string name="app_id">123456789012</string>
+</resources>
